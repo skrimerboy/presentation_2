@@ -1,0 +1,103 @@
+@import url(reset.css);
+
+.cito{
+  width: 2em;
+
+}
+.bino{
+  height: 25px;
+  left: 1em;
+}
+
+ol{
+    list-style: none;
+}
+ol > li{
+    padding-left: 1em;
+    position: relative;
+    margin: 0,5em;
+}
+ol > li:before{
+    content: '';
+    position: absolute; top: 0; left: 0;
+    color: white;}
+    ul{
+        list-style: none;
+    }
+    ul > li{
+        padding-left: 1em;
+        position: relative;
+        margin: 0,5em;
+    }
+    ul > li:before{
+        content: '';
+        position: absolute; top: 0; left: 0;
+        color: #23296C;}
+.three{
+    height: 100%;
+    background-color: #23296C;
+  background: radial-gradient(44.79% 64.07% at 89.69% 91.94%, #0B54F1 0%, #1F3183 51.56%, #23296C 83.33%), #23296C;
+    height: 70%;
+}
+.container{
+  display: flex;
+  padding: 1em;
+  width: 100%;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items: stretch;
+    align-content:stretch;
+    font-size: 1em;
+    color: white;
+    font-weight: medium ;
+    line-height: 1,5;
+}
+
+.logo3{
+  width: 11em;
+}
+
+.page{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1em;
+  font-weight: normal;
+  color: white;
+  padding: 1em;
+}
+.header{
+  width:100%;
+  height:4em;
+  background-color: #23296C ;
+    }
+.first{
+  padding: 1em;
+  display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items: stretch;
+    align-content:stretch;
+
+    }
+
+.withfoto{  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1em;
+  font-weight: normal;
+  color: #23296C;
+  padding: 1em;}
+.bank{
+  width: 8em;
+  margin-right: 1em;
+}
